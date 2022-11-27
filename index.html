@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto">
+</head>
+<body>
+    <div class="sidebar">
+    </div>
+
+    <div class="content">
+        <div class="header-container">
+            <div class="header-text">
+                <h3>This is not a real online service! You know you need something like this in your life to help you realize your dreams. Sign up now to get started.</h3>
+                <p></p>
+                <h3>You know you want to</h3>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <h3 class="form-title">Let's do this</h3>
+            <form:push>
+                <div class="form-row">
+                    <div class="form-element"><label for="first_name">First Name*</label><input type="text" name="first_name" id="first_name" required></div>
+                    <div class="form-element"><label for="last_name">Last Name*</label><input type="text" name="last_name" id="last_name" required></div>
+                </div>
+                <div class="form-row">
+                    <div class="form-element"><label for="email"></label>Email*<input type="email" name="email" id="email" required></div>
+                    <div class="form-element"><label for="phone_number">Phone Number*</label><input type="text" name="phone_number" id="phone_number" required></div>
+                </div>
+                <div class="form-row">
+                    <div class="form-element"><label for="password"></label>Password*<input type="password" name="password" id="password" required></div>
+                    <div class="form-element"><label for="confirm_password">Confirm Password*</label><input type="password" name="confirm_password" id="confirm_password"  required></div>
+                </div>
+            </form:push>
+        </div>
+
+        <div  class="footer-container">
+            <button>Create account</button>
+            <div class="footer">
+                <p>Already have an account? <a>Log in!</a></p>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
