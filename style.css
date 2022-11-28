@@ -111,7 +111,7 @@ button
     font-family: Georgia, 'Times New Roman', Times, serif;
     max-width: 135px;
     top: 15%;
-    left: 7%;
+    left: 6%;
 
 }
 .footer-container
@@ -138,4 +138,8 @@ button:active
 a
 {
     color: #6a8b4d;
+}
+a:focus
+{
+    color: #596D48;
 }
