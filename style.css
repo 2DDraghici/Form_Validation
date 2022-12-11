@@ -64,6 +64,7 @@ h3{
     flex-direction: row;
     justify-content: space-evenly;
     overflow: hidden;
+    margin-top: 5px;
   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -75,10 +76,9 @@ h3{
 
     
 }
-form
-{
-    display: flex;
-    height: 75px;
+.form,form{
+    
+    height: 75%;
 }
 .form-container
 {
@@ -93,11 +93,13 @@ input
     outline: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 15vw;
+    margin-top: 2px;
    
 }
 input:focus
-{
-    border: solid rgb(100, 61, 241);
+{   
+    outline: none;
+    border: 2px solid rgb(100, 61, 241);
 }
 button
 {   position: relative;
@@ -111,7 +113,7 @@ button
     font-family: Georgia, 'Times New Roman', Times, serif;
     max-width: 135px;
     top: 15%;
-    left: 6%;
+    left: 7%;
 
 }
 .footer-container
@@ -141,5 +143,14 @@ a
 }
 a:focus
 {
-    color: #596D48;
+    color: #6a8b4d;
+}
+
+.error
+{
+    border:2px solid #d40000;
+}
+.correct_password
+{
+    border:2px solid green;
 }
